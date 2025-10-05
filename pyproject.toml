@@ -1,0 +1,27 @@
+[project]
+name = "tushare-docs-mcp"
+version = "0.1.0"
+description = "Tushare Docs MCP Server - 提供Tushare接口文档查询功能"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.15.0",
+]
+authors = [
+    {name = "Momojie", email = "momojiesuper@gmail.com"}
+]
+license = {text = "MIT"}
+
+[dependency-groups]
+dev = [
+    "ruff>=0.13.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"tushare_docs_mcp" = ["docs/**/*"]
+
+[project.scripts]
+tushare-docs-mcp = "main:main"
