@@ -110,10 +110,6 @@ twine check dist/*
 
 MIT License
 
-## 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
 ## 相关链接
 
 - [Tushare 官网](https://tushare.pro/)
