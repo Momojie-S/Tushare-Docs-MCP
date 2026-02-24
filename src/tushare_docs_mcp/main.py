@@ -40,7 +40,7 @@ Claude Desktop 配置:
 
 def print_version():
     """打印版本信息"""
-    print("Tushare Docs MCP Server v0.0.1")
+    print("Tushare Docs MCP Server v0.2.0")
 
 
 def main():

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tushare-docs-mcp"
-version = "0.0.1"
+version = "0.2.0"
 description = "Tushare Docs MCP Server - 提供Tushare接口文档查询功能"
 readme = "README.md"
 requires-python = ">=3.11"
